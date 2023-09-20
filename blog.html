@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spot</title>
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <style>
+        .landing-slogan{
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 5px;
+            margin-right: 5px;
+            max-width: 1270px;
+            width: 100%;
+            color: white;
+            
+        }
+
+        .landing-slogan h2{
+            font-size: 56px;
+            
+        }
+        .slogan-holder{
+            background: linear-gradient(90deg, rgb(51, 40, 66) 5%, rgb(42, 48, 61) 37%, rgb(52, 76, 82) 92%,rgb(62, 90, 95) 100%);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            
+        }
+
+        .blog-post{
+            background-color: rgba(247, 243, 238, 0.1);
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .blog-post:hover{
+            background-color: rgb(229, 236, 241);
+        }
+
+        .blog-post a{
+            text-decoration: none;
+            color: rgb(44, 42, 42);
+        }
+
+
+        .post-title{
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+        }
+
+        .blog-post h3{
+            color: black;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><strong><a href="index.html">SPOT</a></strong></h1>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+
+            <ul>
+
+                <li><a class="download-btn" href="download.html">Download</a></li>
+                <li><a class="donate-btn" href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slogan-holder">
+            <div class="landing-slogan">
+                <h2>Blog:</h2>
+            </div>
+        </div>
+        
+        <div class="centered-section-container">
+            <div class="centered-section">
+                <h2>2023</h2>
+
+                <br>
+
+                <div class="blog-post">
+                    <a href="article/hello-world.html">
+                        <div class="post-title">
+                            <h3>Hello, World!</h3>
+                            <p>2023/09/19</p>
+                        </div>
+
+                        <p>First blog post! Discussing the development of the Engine and its future.</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <p>© 2023 Lucasof and Trivalent Technologies</p>
+                
+            </div>
+    
+            <div>
+                <h3>Product</h3>
+                <br>
+                <a href="download.html">Download</a>
+                <a href="docs.html">Documentation</a>
+            </div>
+    
+            <div>
+                <h3>About Spot</h3>
+                <br>
+                <a href="features.html">Features</a>
+                <a href="blog.html">Blog</a>
+            </div>
+
+            <div>
+                <h3>Policy</h3>
+                <br>
+                <a href="https://trivalent.tech/terms">Terms of Service</a>
+                <a href="https://trivalent.tech/privacy">Privacy</a>
+                <a href="https://trivalent.tech/opensource/license">License</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <br>
+                <a href="mailto:contact@trivalent.tech">Email</a>
+                <a href="https://github.com/trivalentcorp/spotengine" target="_blank">GitHub</a>
+                <a href="https://x.com/spotengineapp" target="_blank">X/Twitter</a>
+            </div>
+        </div>
+        
+    </footer>
+    
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.blog-post-center{
+    padding-top: 72px;
+    background-color: rgba(237, 242, 247, .8);
+    min-height: 80vh;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 17px;
+    color: rgb(39, 38, 38);
+}
+
+.post-author{
+    display: flex;
+    align-items: center;
+}
+
+.article-information img{
+    border-radius: 50%;
+    width: 26px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.article-information{
+    margin-bottom: 30px;
+}
+
+.article p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article h3{
+    padding-top: 15px;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(46, 37, 59) 5%, rgb(33, 39, 48) 37%, rgb(49, 72, 77) 92%,rgb(56, 78, 83) 100%);
+}
